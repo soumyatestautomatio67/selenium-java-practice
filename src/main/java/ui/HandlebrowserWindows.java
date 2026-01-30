@@ -21,6 +21,7 @@ public class HandlebrowserWindows {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[normalize-space()='OrangeHRM, Inc']")).click();
 		Set<String> windowsId = driver.getWindowHandles();
+		System.out.println("Handled successfully");
 		/*
 		 * List<String> windowslist = new ArrayList(windowsId); String parentId =
 		 * windowslist.get(0); // System.out.println(parentId); String childId =
