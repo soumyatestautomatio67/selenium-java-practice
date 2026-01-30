@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": ["src/main/java", "src/test/java"],
+    "java.project.outputPath": "target/classes",
+    "java.project.referencedLibraries": {
+        "include": ["target/dependency/**/*.jar"],
+        "exclude": []
+    },
+    "java.import.gradle.enabled": false,
+    "java.import.maven.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.maven.downloadSources": true,
+    "java.maven.downloadJavadoc": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home",
+    "maven.executable.path": "/tmp/apache-maven-3.9.6/bin/mvn"
+}

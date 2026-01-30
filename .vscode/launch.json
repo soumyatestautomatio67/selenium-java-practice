@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "AlertsHandeling",
+        "request": "launch",
+        "mainClass": "ui.AlertsHandeling",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "ConditionalMethods",
+        "request": "launch",
+        "mainClass": "ui.ConditionalMethods",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "ClosingSpecificBrowserWindow",
+        "request": "launch",
+        "mainClass": "ui.ClosingSpecificBrowserWindow",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "GetMethods",
+        "request": "launch",
+        "mainClass": "ui.GetMethods",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "BrowserMethods",
+        "request": "launch",
+        "mainClass": "ui.BrowserMethods",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "LoginTest",
+        "request": "launch",
+        "mainClass": "ui.LoginTest",
+        "projectName": "selenium-java-practice_e2ae28"
+    },
+    {
+        "type": "java",
+        "name": "LoginTest",
+        "request": "launch",
+        "mainClass": "ui.LoginTest",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    },
+    {
+        "type": "java",
+        "name": "AlertsHandeling",
+        "request": "launch",
+        "mainClass": "ui.AlertsHandeling",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    },
+    {
+        "type": "java",
+        "name": "HandleCheckboxes",
+        "request": "launch",
+        "mainClass": "ui.HandleCheckboxes",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    },
+    {
+        "type": "java",
+        "name": "NavigationCommand",
+        "request": "launch",
+        "mainClass": "ui.NavigationCommand",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    },
+    {
+        "type": "java",
+        "name": "HandleAlertsUsingExplicitwait",
+        "request": "launch",
+        "mainClass": "ui.HandleAlertsUsingExplicitwait",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    },
+    {
+        "type": "java",
+        "name": "BrowserMethods",
+        "request": "launch",
+        "mainClass": "ui.BrowserMethods",
+        "projectName": "selenium-java-practice",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "maven: install"
+    }
+]
+}

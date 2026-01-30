@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.selenium'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenium WebDriver
+    implementation 'org.seleniumhq.selenium:selenium-java:4.15.0'
+    
+    // WebDriver Manager for automatic driver management
+    implementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
+    
+    // JUnit for testing
+    testImplementation 'junit:junit:4.13.2'
+}
+
+tasks.named('test') {
+    useJUnit()
+}
+
+application {
+    mainClass = 'ui.AlertsHandeling'
+}

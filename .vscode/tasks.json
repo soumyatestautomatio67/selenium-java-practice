@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "maven: clean",
+      "type": "shell",
+      "command": "/tmp/apache-maven-3.9.6/bin/mvn",
+      "args": ["clean"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "maven: install",
+      "type": "shell",
+      "command": "/tmp/apache-maven-3.9.6/bin/mvn",
+      "args": ["install", "-DskipTests"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "maven: compile",
+      "type": "shell",
+      "command": "/tmp/apache-maven-3.9.6/bin/mvn",
+      "args": ["compile"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "maven: package",
+      "type": "shell",
+      "command": "/tmp/apache-maven-3.9.6/bin/mvn",
+      "args": ["package", "-DskipTests"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": "$maven"
+    }
+  ]
+}

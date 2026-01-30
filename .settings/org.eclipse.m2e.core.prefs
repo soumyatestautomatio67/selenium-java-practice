@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.eclipse.m2e.core.prefs.version=1
+org.eclipse.m2e.core.maven.builder.knownExecutionEnvironmentNames=J2SE-1.4,J2SE-1.5,J2SE-1.6,J2SE-1.7,J2SE-1.8,JavaSE-1.6,JavaSE-1.7,JavaSE-1.8,JavaSE-9,JavaSE-10,JavaSE-11,JavaSE-12,JavaSE-13,JavaSE-14,JavaSE-15
+org.eclipse.m2e.core.maven.builder.builderId=org.eclipse.m2e.core.maven2Builder
